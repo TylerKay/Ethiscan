@@ -1,4 +1,4 @@
-package com.ttpi.ethiscan;
+package com.example.ethiscan;
 
 import org.junit.Test;
 
