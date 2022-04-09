@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ethiscan.iml" filepath="$PROJECT_DIR$/.idea/modules/Ethiscan.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Ethiscan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Ethiscan.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Github_Repositories.Ethiscan.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Github_Repositories.Ethiscan.app.iml" />
     </modules>
   </component>
 </project>
