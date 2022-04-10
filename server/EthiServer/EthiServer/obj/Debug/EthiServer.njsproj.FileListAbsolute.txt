@@ -1,0 +1,3 @@
+C:\Users\tpies\Documents\DEVELOPMENT\Chapman\Hackathon\YHACK2022\Ethiscan\server\EthiServer\EthiServer\obj\Debug\EthiServer.njsproj.AssemblyReference.cache
+C:\Users\tpies\Documents\DEVELOPMENT\Chapman\Hackathon\YHACK2022\Ethiscan\server\EthiServer\EthiServer\obj\Debug\EthiServer.njsproj.CoreCompileInputs.cache
+C:\Users\tpies\Documents\DEVELOPMENT\Chapman\Hackathon\YHACK2022\Ethiscan\server\EthiServer\EthiServer\bin\Microsoft.NodejsTools.WebRole.dll
