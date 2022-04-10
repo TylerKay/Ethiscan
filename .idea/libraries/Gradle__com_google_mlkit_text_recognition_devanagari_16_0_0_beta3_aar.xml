@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.mlkit:text-recognition-devanagari:16.0.0-beta3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/e5f998662d1869368721e0daa532d9ec/transformed/text-recognition-devanagari-16.0.0-beta3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5f998662d1869368721e0daa532d9ec/transformed/text-recognition-devanagari-16.0.0-beta3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e5f998662d1869368721e0daa532d9ec/transformed/text-recognition-devanagari-16.0.0-beta3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.mlkit/text-recognition-devanagari/16.0.0-beta3/9dad13fc9ef3721d6206e49c8a5c5362c5178555/text-recognition-devanagari-16.0.0-beta3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

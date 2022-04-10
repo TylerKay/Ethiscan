@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view) {
-        Intent intent = new Intent(this, CameraScan.class);
+        Intent intent = new Intent(this, CameraXLivePreviewActivity.class);
         startActivity(intent);
     }
 }
