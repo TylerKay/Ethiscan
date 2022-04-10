@@ -1,0 +1,42 @@
+
+.landingPageHeading {
+  padding-top: 170px;
+  padding-bottom: 35px;
+}
+
+
+
+.landingButtons {
+  padding-top: 50px;
+
+}
+
+body {
+  text-align: center;
+}
+
+.table {
+  text-align: center;
+
+}
+
+td {
+  text-align: center;
+}
+
+.pageHeader {
+  padding-top: 100px;
+  padding-bottom: 35px;
+}
+
+.bg {
+  min-height: 100px;
+  min-height: 100vh;
+  width: 100%;
+  background:linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url(https://www.smartsheet.com/sites/default/files/blog-inline.jpg);
+  background-color: transparent;
+}
+
+.center{
+  text-align: center;
+}
