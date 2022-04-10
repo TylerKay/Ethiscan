@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" />
+        <title>Ethiscan</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
+    </head>
+        <body>
+            <!-- <script>
+                var staticUrl = 'http://192.168.137.97:8080/test'
+                $.getJSON(staticUrl, function(data) {                    
+                    console.log(data)
+                    var items = [];
+                    $.each( data, function(key, val) {
+                        items.push( "Key: " + key + " " + "Value: " + val);
+                        document.getElementById('key').innerHTML = key;
+                        document.getElementById('value').innerHTML = value;
+                    });
+                    console.log(items)
+                }); -->
+            
+            
+            </script>
+            <section class="bg" id="about">
+                <div class="container">
+                <div class="row">
+
+            <div class="container-fluid">
+            <div class = "landingPageHeading">
+            </div>
+            </div>
+
+                        <p id = 'logo'> </p>
+                        <!-- <p id = 'logoValue'></p> -->
+                        <img class='logoValue' src="" alt="img">
+
+                        <p id = 'name'> </p>
+                        <p id = 'nameValue'> </p>
+
+                        <p id = 'location'> </p>
+                        <p id = 'locationValue'> </p>
+
+                        <p id = 'humanRightsScore'> </p>
+                        <p id = 'humanRightsScoreValue'> </p>
+
+                        <p id = 'envScore'> </p>
+                        <p id = 'envScoreValue'> </p>
+
+                        <p id = 'description'> </p>
+                        <p id = 'descriptionVal'> </p>
+
+                        <p id = 'article1'> </p>
+                        <p id = 'article1Val'> </p>
+
+                        <p id = 'article2'> </p>
+                        <p id = 'article2Val'> </p>
+
+                        <p id = 'article3'> </p>
+                        <p id = 'article3Val'> </p>
+
+                    </div>
+                </div>
+            </div>
+            <br>
+
+
+            <script>
+                var staticUrl = 'http://192.168.137.97:8080/test'
+                $.getJSON(staticUrl, function(data) {                    
+                    console.log(data)
+                    var items = [];
+                    $.each( data, function(key, val) {
+                        if (key == 'Logo'){
+                            document.getElementById('logo').innerHTML = key; 
+                            // document.getElementById('logoValue').innerHTML = val;
+                            var imgVar = val;
+                            // document.querySelector('logoValue').src = imgVar;
+                        }
+                        else if (key == 'Name'){
+                            document.getElementById('name').innerHTML = key; 
+                            document.getElementById('nameValue').innerHTML = val;
+                        }
+                        else if (key == 'Location'){
+                            document.getElementById('location').innerHTML = key; 
+                            document.getElementById('locationValue').innerHTML = val;
+                        }
+                        if (key == 'HumanRightsScore'){
+                            document.getElementById('humanRightsScore').innerHTML = key; 
+                            document.getElementById('humanRightsScoreValue').innerHTML = val;
+                        }
+                        else if (key == 'EnvScore'){
+                            document.getElementById('envScore').innerHTML = key; 
+                            document.getElementById('envScoreValue').innerHTML = val;
+                        }
+                        else if (key == 'Description'){
+                            document.getElementById('description').innerHTML = key; 
+                            document.getElementById('descriptionVal').innerHTML = val;
+                        }
+
+
+                        // else if (key == "Articles"){
+                        //     $.each(JSON.parse(key), function(k, val) {
+                        //         if (key == 'article1'){
+                        //             document.getElementById('article1').innerHTML = k; 
+                        //             document.getElementById('article1Val').innerHTML = val;
+                        //         }
+                        //         else if (key == 'article2'){
+                        //             document.getElementById('article2').innerHTML = k; 
+                        //             document.getElementById('article2Val').innerHTML = val;
+                        //         } 
+                        //         else if (key == 'article3'){
+                        //             document.getElementById('article3').innerHTML = k; 
+                        //             document.getElementById('article3Val').innerHTML = val;
+                        //         }     
+                        //     });
+                        // }
+                    });
+                    console.log(items)
+                });
+            
+            
+            </script> 
+        </body>
+</html>
